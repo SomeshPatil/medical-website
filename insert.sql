@@ -1,3 +1,5 @@
+-- Disclaimer : The Values Mentioned herewith are arbitrary and do not coincide with real data
+
 -- PIN Address
 INSERT INTO `medicine`.`pin_address` (`PIN`, `Area`, `City`, `State`, `Country`) VALUES ('394270', 'Hazira', 'Surat', 'Gujarat', 'India');
 INSERT INTO `medicine`.`pin_address` (`PIN`, `Area`, `City`, `State`, `Country`) VALUES ('700745', 'Patia', 'Bhubaneswar', 'Odisha', 'India');
