@@ -21,6 +21,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `medicine`
 --
+CREATE SCHEMA `medicine`;
+
+USE `medicine`;
 
 -- --------------------------------------------------------
 
