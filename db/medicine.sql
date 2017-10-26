@@ -406,7 +406,7 @@ BEGIN
     IF ((NEW.gender != 'M')AND(NEW.gender != 'F')AND(NEW.gender != 'O')) THEN
 		SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='Invalid Gender';
 	END IF;
-    IF (NEW.email NOT LIKE '%@%.com') THEN
+    IF (NEW.email NOT LIKE '_%@_%.com') THEN
 		SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='Invalid Email';
 	END IF;
 END$$
