@@ -125,7 +125,7 @@
                <form action = "" method = "post">
                   <div class="input-group">
                     <span class="input-group-addon" id="sizing-addon2">@</span>
-                    <input type="text" class="form-control" name="username" placeholder="Username" aria-describedby="sizing-addon2">
+                    <input type="email" class="form-control" name="username" placeholder="Username" aria-describedby="sizing-addon2">
                   </div>
                   <div class="input-group">
                     <span class="input-group-addon" id="sizing-addon2">@</span>
